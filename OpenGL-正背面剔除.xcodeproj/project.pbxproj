@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB477EF21B2A64A00AECC41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477EE21B2A64A00AECC41 /* AppDelegate.m */; };
+		CDB477F221B2A64A00AECC41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477F121B2A64A00AECC41 /* ViewController.m */; };
+		CDB477F421B2A65000AECC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB477F321B2A65000AECC41 /* Assets.xcassets */; };
+		CDB477F721B2A65000AECC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB477F521B2A65000AECC41 /* Main.storyboard */; };
+		CDB477FA21B2A65000AECC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477F921B2A65000AECC41 /* main.m */; };
+		CDB4780521B2A65000AECC41 /* OpenGL______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4780421B2A65000AECC41 /* OpenGL______Tests.m */; };
+		CDB4781021B2A65000AECC41 /* OpenGL______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4780F21B2A65000AECC41 /* OpenGL______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB4780121B2A65000AECC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB477E221B2A64A00AECC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB477E921B2A64A00AECC41;
+			remoteInfo = "OpenGL-正背面剔除";
+		};
+		CDB4780C21B2A65000AECC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB477E221B2A64A00AECC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB477E921B2A64A00AECC41;
+			remoteInfo = "OpenGL-正背面剔除";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB477EA21B2A64A00AECC41 /* OpenGL-正背面剔除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-正背面剔除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB477ED21B2A64A00AECC41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB477EE21B2A64A00AECC41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB477F021B2A64A00AECC41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDB477F121B2A64A00AECC41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDB477F321B2A65000AECC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB477F621B2A65000AECC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB477F821B2A65000AECC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB477F921B2A65000AECC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB477FB21B2A65000AECC41 /* OpenGL______.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL______.entitlements"; sourceTree = "<group>"; };
+		CDB4780021B2A65000AECC41 /* OpenGL-正背面剔除Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-正背面剔除Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB4780421B2A65000AECC41 /* OpenGL______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______Tests.m"; sourceTree = "<group>"; };
+		CDB4780621B2A65000AECC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB4780B21B2A65000AECC41 /* OpenGL-正背面剔除UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-正背面剔除UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB4780F21B2A65000AECC41 /* OpenGL______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______UITests.m"; sourceTree = "<group>"; };
+		CDB4781121B2A65100AECC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB477E721B2A64A00AECC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB477FD21B2A65000AECC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB4780821B2A65000AECC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB477E121B2A64A00AECC41 = {
+			isa = PBXGroup;
+			children = (
+				CDB477EC21B2A64A00AECC41 /* OpenGL-正背面剔除 */,
+				CDB4780321B2A65000AECC41 /* OpenGL-正背面剔除Tests */,
+				CDB4780E21B2A65000AECC41 /* OpenGL-正背面剔除UITests */,
+				CDB477EB21B2A64A00AECC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB477EB21B2A64A00AECC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB477EA21B2A64A00AECC41 /* OpenGL-正背面剔除.app */,
+				CDB4780021B2A65000AECC41 /* OpenGL-正背面剔除Tests.xctest */,
+				CDB4780B21B2A65000AECC41 /* OpenGL-正背面剔除UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB477EC21B2A64A00AECC41 /* OpenGL-正背面剔除 */ = {
+			isa = PBXGroup;
+			children = (
+				CDB477ED21B2A64A00AECC41 /* AppDelegate.h */,
+				CDB477EE21B2A64A00AECC41 /* AppDelegate.m */,
+				CDB477F021B2A64A00AECC41 /* ViewController.h */,
+				CDB477F121B2A64A00AECC41 /* ViewController.m */,
+				CDB477F321B2A65000AECC41 /* Assets.xcassets */,
+				CDB477F521B2A65000AECC41 /* Main.storyboard */,
+				CDB477F821B2A65000AECC41 /* Info.plist */,
+				CDB477F921B2A65000AECC41 /* main.m */,
+				CDB477FB21B2A65000AECC41 /* OpenGL______.entitlements */,
+			);
+			path = "OpenGL-正背面剔除";
+			sourceTree = "<group>";
+		};
+		CDB4780321B2A65000AECC41 /* OpenGL-正背面剔除Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4780421B2A65000AECC41 /* OpenGL______Tests.m */,
+				CDB4780621B2A65000AECC41 /* Info.plist */,
+			);
+			path = "OpenGL-正背面剔除Tests";
+			sourceTree = "<group>";
+		};
+		CDB4780E21B2A65000AECC41 /* OpenGL-正背面剔除UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4780F21B2A65000AECC41 /* OpenGL______UITests.m */,
+				CDB4781121B2A65100AECC41 /* Info.plist */,
+			);
+			path = "OpenGL-正背面剔除UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB477E921B2A64A00AECC41 /* OpenGL-正背面剔除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB4781421B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除" */;
+			buildPhases = (
+				CDB477E621B2A64A00AECC41 /* Sources */,
+				CDB477E721B2A64A00AECC41 /* Frameworks */,
+				CDB477E821B2A64A00AECC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-正背面剔除";
+			productName = "OpenGL-正背面剔除";
+			productReference = CDB477EA21B2A64A00AECC41 /* OpenGL-正背面剔除.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB477FF21B2A65000AECC41 /* OpenGL-正背面剔除Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB4781721B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除Tests" */;
+			buildPhases = (
+				CDB477FC21B2A65000AECC41 /* Sources */,
+				CDB477FD21B2A65000AECC41 /* Frameworks */,
+				CDB477FE21B2A65000AECC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB4780221B2A65000AECC41 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-正背面剔除Tests";
+			productName = "OpenGL-正背面剔除Tests";
+			productReference = CDB4780021B2A65000AECC41 /* OpenGL-正背面剔除Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB4780A21B2A65000AECC41 /* OpenGL-正背面剔除UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB4781A21B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除UITests" */;
+			buildPhases = (
+				CDB4780721B2A65000AECC41 /* Sources */,
+				CDB4780821B2A65000AECC41 /* Frameworks */,
+				CDB4780921B2A65000AECC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB4780D21B2A65000AECC41 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-正背面剔除UITests";
+			productName = "OpenGL-正背面剔除UITests";
+			productReference = CDB4780B21B2A65000AECC41 /* OpenGL-正背面剔除UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB477E221B2A64A00AECC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lxj;
+				TargetAttributes = {
+					CDB477E921B2A64A00AECC41 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDB477FF21B2A65000AECC41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDB477E921B2A64A00AECC41;
+					};
+					CDB4780A21B2A65000AECC41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDB477E921B2A64A00AECC41;
+					};
+				};
+			};
+			buildConfigurationList = CDB477E521B2A64A00AECC41 /* Build configuration list for PBXProject "OpenGL-正背面剔除" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB477E121B2A64A00AECC41;
+			productRefGroup = CDB477EB21B2A64A00AECC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB477E921B2A64A00AECC41 /* OpenGL-正背面剔除 */,
+				CDB477FF21B2A65000AECC41 /* OpenGL-正背面剔除Tests */,
+				CDB4780A21B2A65000AECC41 /* OpenGL-正背面剔除UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB477E821B2A64A00AECC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB477F421B2A65000AECC41 /* Assets.xcassets in Resources */,
+				CDB477F721B2A65000AECC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB477FE21B2A65000AECC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB4780921B2A65000AECC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB477E621B2A64A00AECC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB477F221B2A64A00AECC41 /* ViewController.m in Sources */,
+				CDB477FA21B2A65000AECC41 /* main.m in Sources */,
+				CDB477EF21B2A64A00AECC41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB477FC21B2A65000AECC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB4780521B2A65000AECC41 /* OpenGL______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB4780721B2A65000AECC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB4781021B2A65000AECC41 /* OpenGL______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB4780221B2A65000AECC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB477E921B2A64A00AECC41 /* OpenGL-正背面剔除 */;
+			targetProxy = CDB4780121B2A65000AECC41 /* PBXContainerItemProxy */;
+		};
+		CDB4780D21B2A65000AECC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB477E921B2A64A00AECC41 /* OpenGL-正背面剔除 */;
+			targetProxy = CDB4780C21B2A65000AECC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB477F521B2A65000AECC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB477F621B2A65000AECC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB4781221B2A65100AECC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDB4781321B2A65100AECC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDB4781521B2A65100AECC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-正背面剔除/OpenGL______.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDB4781621B2A65100AECC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-正背面剔除/OpenGL______.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDB4781821B2A65100AECC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-正背面剔除.app/Contents/MacOS/OpenGL-正背面剔除";
+			};
+			name = Debug;
+		};
+		CDB4781921B2A65100AECC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-正背面剔除.app/Contents/MacOS/OpenGL-正背面剔除";
+			};
+			name = Release;
+		};
+		CDB4781B21B2A65100AECC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-正背面剔除";
+			};
+			name = Debug;
+		};
+		CDB4781C21B2A65100AECC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-正背面剔除UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-正背面剔除";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB477E521B2A64A00AECC41 /* Build configuration list for PBXProject "OpenGL-正背面剔除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB4781221B2A65100AECC41 /* Debug */,
+				CDB4781321B2A65100AECC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB4781421B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB4781521B2A65100AECC41 /* Debug */,
+				CDB4781621B2A65100AECC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB4781721B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB4781821B2A65100AECC41 /* Debug */,
+				CDB4781921B2A65100AECC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB4781A21B2A65100AECC41 /* Build configuration list for PBXNativeTarget "OpenGL-正背面剔除UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB4781B21B2A65100AECC41 /* Debug */,
+				CDB4781C21B2A65100AECC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB477E221B2A64A00AECC41 /* Project object */;
+}
