@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDB477EF21B2A64A00AECC41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477EE21B2A64A00AECC41 /* AppDelegate.m */; };
-		CDB477F221B2A64A00AECC41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477F121B2A64A00AECC41 /* ViewController.m */; };
 		CDB477F421B2A65000AECC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB477F321B2A65000AECC41 /* Assets.xcassets */; };
 		CDB477F721B2A65000AECC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB477F521B2A65000AECC41 /* Main.storyboard */; };
-		CDB477FA21B2A65000AECC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB477F921B2A65000AECC41 /* main.m */; };
 		CDB4780521B2A65000AECC41 /* OpenGL______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4780421B2A65000AECC41 /* OpenGL______Tests.m */; };
 		CDB4781021B2A65000AECC41 /* OpenGL______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB4780F21B2A65000AECC41 /* OpenGL______UITests.m */; };
+		CDB4781F21B2A66900AECC41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4781E21B2A66900AECC41 /* OpenGL.framework */; };
+		CDB4782121B2A67000AECC41 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4782021B2A67000AECC41 /* GLUT.framework */; };
+		CDB4783321B2A68400AECC41 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB4783221B2A68400AECC41 /* libGLTools.a */; };
+		CDB4783521B2A69200AECC41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB4783421B2A69200AECC41 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +36,9 @@
 
 /* Begin PBXFileReference section */
 		CDB477EA21B2A64A00AECC41 /* OpenGL-正背面剔除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-正背面剔除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDB477ED21B2A64A00AECC41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDB477EE21B2A64A00AECC41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CDB477F021B2A64A00AECC41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDB477F121B2A64A00AECC41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDB477F321B2A65000AECC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB477F621B2A65000AECC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB477F821B2A65000AECC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDB477F921B2A65000AECC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDB477FB21B2A65000AECC41 /* OpenGL______.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL______.entitlements"; sourceTree = "<group>"; };
 		CDB4780021B2A65000AECC41 /* OpenGL-正背面剔除Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-正背面剔除Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB4780421B2A65000AECC41 /* OpenGL______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______Tests.m"; sourceTree = "<group>"; };
@@ -50,6 +46,24 @@
 		CDB4780B21B2A65000AECC41 /* OpenGL-正背面剔除UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-正背面剔除UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB4780F21B2A65000AECC41 /* OpenGL______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______UITests.m"; sourceTree = "<group>"; };
 		CDB4781121B2A65100AECC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB4781E21B2A66900AECC41 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CDB4782021B2A67000AECC41 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CDB4782321B2A67D00AECC41 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		CDB4782421B2A67D00AECC41 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		CDB4782521B2A67D00AECC41 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		CDB4782621B2A67D00AECC41 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		CDB4782721B2A67D00AECC41 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		CDB4782821B2A67D00AECC41 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		CDB4782921B2A67D00AECC41 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		CDB4782A21B2A67D00AECC41 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		CDB4782B21B2A67D00AECC41 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		CDB4782C21B2A67D00AECC41 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		CDB4782E21B2A67D00AECC41 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		CDB4782F21B2A67D00AECC41 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		CDB4783021B2A67D00AECC41 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		CDB4783121B2A67D00AECC41 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		CDB4783221B2A68400AECC41 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		CDB4783421B2A69200AECC41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB4783321B2A68400AECC41 /* libGLTools.a in Frameworks */,
+				CDB4782121B2A67000AECC41 /* GLUT.framework in Frameworks */,
+				CDB4781F21B2A66900AECC41 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +101,7 @@
 				CDB4780321B2A65000AECC41 /* OpenGL-正背面剔除Tests */,
 				CDB4780E21B2A65000AECC41 /* OpenGL-正背面剔除UITests */,
 				CDB477EB21B2A64A00AECC41 /* Products */,
+				CDB4781D21B2A66800AECC41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,15 +118,12 @@
 		CDB477EC21B2A64A00AECC41 /* OpenGL-正背面剔除 */ = {
 			isa = PBXGroup;
 			children = (
-				CDB477ED21B2A64A00AECC41 /* AppDelegate.h */,
-				CDB477EE21B2A64A00AECC41 /* AppDelegate.m */,
-				CDB477F021B2A64A00AECC41 /* ViewController.h */,
-				CDB477F121B2A64A00AECC41 /* ViewController.m */,
+				CDB4782221B2A67D00AECC41 /* include */,
 				CDB477F321B2A65000AECC41 /* Assets.xcassets */,
 				CDB477F521B2A65000AECC41 /* Main.storyboard */,
 				CDB477F821B2A65000AECC41 /* Info.plist */,
-				CDB477F921B2A65000AECC41 /* main.m */,
 				CDB477FB21B2A65000AECC41 /* OpenGL______.entitlements */,
+				CDB4783421B2A69200AECC41 /* main.cpp */,
 			);
 			path = "OpenGL-正背面剔除";
 			sourceTree = "<group>";
@@ -129,6 +144,45 @@
 				CDB4781121B2A65100AECC41 /* Info.plist */,
 			);
 			path = "OpenGL-正背面剔除UITests";
+			sourceTree = "<group>";
+		};
+		CDB4781D21B2A66800AECC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4783221B2A68400AECC41 /* libGLTools.a */,
+				CDB4782021B2A67000AECC41 /* GLUT.framework */,
+				CDB4781E21B2A66900AECC41 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB4782221B2A67D00AECC41 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4782321B2A67D00AECC41 /* GLBatchBase.h */,
+				CDB4782421B2A67D00AECC41 /* math3d.h */,
+				CDB4782521B2A67D00AECC41 /* GLTriangleBatch.h */,
+				CDB4782621B2A67D00AECC41 /* GLBatch.h */,
+				CDB4782721B2A67D00AECC41 /* GLMatrixStack.h */,
+				CDB4782821B2A67D00AECC41 /* GLFrame.h */,
+				CDB4782921B2A67D00AECC41 /* GLFrustum.h */,
+				CDB4782A21B2A67D00AECC41 /* GLGeometryTransform.h */,
+				CDB4782B21B2A67D00AECC41 /* GLShaderManager.h */,
+				CDB4782C21B2A67D00AECC41 /* StopWatch.h */,
+				CDB4782D21B2A67D00AECC41 /* GL */,
+				CDB4783121B2A67D00AECC41 /* GLTools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CDB4782D21B2A67D00AECC41 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4782E21B2A67D00AECC41 /* glxew.h */,
+				CDB4782F21B2A67D00AECC41 /* wglew.h */,
+				CDB4783021B2A67D00AECC41 /* glew.h */,
+			);
+			path = GL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB477F221B2A64A00AECC41 /* ViewController.m in Sources */,
-				CDB477FA21B2A65000AECC41 /* main.m in Sources */,
-				CDB477EF21B2A64A00AECC41 /* AppDelegate.m in Sources */,
+				CDB4783521B2A69200AECC41 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +484,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -448,6 +504,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
